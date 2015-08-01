@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="default" class="LoggerAppenderFile">
+       <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} %logger %-5level %msg%n" />
+        </layout>
+        <param name="file" value="/Users/qianzhixiang/myfile/myweb/快盘/myweb/withnostucture/log/myLog.log" />
+        <param name="append" value="true" />
+    </appender>
+
+    <appender name="debug" class="LoggerAppenderFile">
+       <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} %logger %-5level %msg%n" />
+        </layout>
+        <param name="file" value="/Users/qianzhixiang/myfile/myweb/快盘/myweb/withnostucture/log/Log_debug.log" />
+        <param name="append" value="true" />
+    </appender>
+
+    <appender name="error" class="LoggerAppenderFile">
+       <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} %logger %-5level %msg%n" />
+        </layout>
+        <param name="file" value="/Users/qianzhixiang/myfile/myweb/快盘/myweb/withnostucture/log/Log_error.log" />
+        <param name="append" value="true" />
+    </appender>
+
+    <appender name="fatal" class="LoggerAppenderFile">
+       <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} %logger %-5level %msg%n" />
+        </layout>
+        <param name="file" value="/Users/qianzhixiang/myfile/myweb/快盘/myweb/withnostucture/log/Log_fatal.log" />
+        <param name="append" value="true" />
+    </appender>
+
+    <appender name="info" class="LoggerAppenderFile">
+       <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} %logger %-5level %msg%n" />
+        </layout>
+        <param name="file" value="/Users/qianzhixiang/myfile/myweb/快盘/myweb/withnostucture/log/Log_info.log" />
+        <param name="append" value="true" />
+    </appender>
+
+    <appender name="warn" class="LoggerAppenderFile">
+       <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date{Y-m-d H:i:s} %logger %-5level %msg%n" />
+        </layout>
+        <param name="file" value="/Users/qianzhixiang/myfile/myweb/快盘/myweb/withnostucture/log/Log_warn.log" />
+        <param name="append" value="true" />
+    </appender>
+
+    <root>
+    	<level value="debug"/>
+        <appender_ref ref="default" />
+    </root>
+    <logger name="info">
+        <level value="info" />
+        <appender_ref ref="info" />
+    </logger>
+    <logger name="error">
+        <level value="error" />
+        <appender_ref ref="error" />
+    </logger>
+    <logger name="fatal">
+        <level value="fatal" />
+        <appender_ref ref="fatal" />
+    </logger>
+    <logger name="debug">
+        <level value="debug" />
+        <appender_ref ref="debug" />
+    </logger>
+    <logger name="warn">
+        <level value="warn" />
+        <appender_ref ref="warn" />
+    </logger>
+
+</configuration>

@@ -1,0 +1,65 @@
+@import "css/fullpage/fullpage-2-6-6.css";
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+  src: url('font/codropsicons.eot');
+  src: url('font/codropsicons.eot?#iefix') format('embedded-opentype'), url('font/codropsicons.woff') format('woff'), url('font/codropsicons.ttf') format('truetype'), url('font/codropsicons.svg#codropsicons') format('svg');
+}
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'lanting';
+  src: url('font/lanting.TTF');
+}
+body {
+  padidng: 0;
+  border: 0;
+  margin: 0;
+}
+.h-border {
+  border: 1px solid red;
+}
+.h-navbar {
+  font-family: lanting;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  padding-top: 4px;
+  color: #7cb2f5;
+  position: fixed;
+  top: 0px;
+}
+.h-navbar ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: right;
+  height: 32px;
+  margin-right: 60px;
+}
+.h-navbar ul li.h-active {
+  background-color: #7cb2f5;
+  color: white;
+}
+.h-navbar ul li.h-active:hover {
+  cursor: pointer;
+  background: #7cb2f5;
+}
+.h-navbar ul li {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 140px;
+  text-align: center;
+  line-height: 32px;
+}
+.h-navbar ul li:hover {
+  cursor: pointer;
+  background: #eaf8ff;
+}
+＃h-homepage .section {
+  background-color: red;
+}

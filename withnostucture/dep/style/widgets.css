@@ -1,0 +1,134 @@
+.qzx_headbar {
+  width: 100%;
+  height: 40px;
+  background: #101010;
+  display: block;
+  color: #9d9d9d;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+}
+.qzx_tail_bar {
+  width: 100%;
+  height: 20px;
+  background: rgba(195, 191, 191, 0.39);
+  display: block;
+  color: #9d9d9d;
+  font-size: 20px;
+  line-height: 30px;
+  position: fixed;
+  bottom: 0px;
+  text-align: left;
+}
+.qzx_main_content {
+  width: 96%;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+.qzx_item {
+  width: 80px;
+  height: 100%;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.qzx_item:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.qzx_item_wrapper_right {
+  height: 100%;
+  float: right;
+  position: relative;
+  right: 30px;
+  font-size: 16px;
+}
+.qzx_self_main {
+  position: relative;
+  left: 50px;
+}
+.qzx_ul_drop_down {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.qzx_ul_drop_down li {
+  float: left;
+  width: 80px;
+  text-align: center;
+}
+.qzx_ul_drop_down li:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #2c2828;
+}
+.qzx_ul_drop_down li ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.qzx_ul_drop_down li ul li {
+  width: 200px;
+  display: block;
+  float: right;
+  heigth: 30px;
+  background-color: #3A3737;
+  z-index: 100;
+}
+.qzx_ul_drop_down li:hover ul {
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.qzx_welcome {
+  position: relative;
+  top: 140px;
+}
+.qzx_button {
+  display: inline-block;
+  border-radius: 7px;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  background: #199837;
+  font-family: "Courier New";
+  font-weight: 900;
+  color: #fff;
+}
+.qzx_button:hover {
+  cursor: pointer;
+  background: #19bd40;
+}
+.qzx_submit_btn {
+  width: 160px;
+  height: 60px;
+  border-radius: 8px;
+  background: #118b58;
+  font-size: 23px;
+  line-height: 60px;
+  border-radius: 5px;
+}
+.qzx_submit_btn:hover {
+  cursor: pointer;
+  background: #0fc87b;
+}
+.qzx_bold {
+  border: 2px solid #66FFFF;
+}
+.qzx_tips {
+  width: 280px;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+  left: 70px;
+  top: -30px;
+  color: #cd4d61;
+  display: inline-block;
+}
+h1 {
+  display: inline-block;
+}

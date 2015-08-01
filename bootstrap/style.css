@@ -1,0 +1,17 @@
+.qzx-hand:hover {
+  cursor: pointer;
+}
+.qzx-bordr {
+  border: 1px solid red;
+}
+.qzx-welcome {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+.qzx-font-warning {
+  color: red;
+}
+.nav > li:hover .dropdown-menu {
+  display: block;
+}

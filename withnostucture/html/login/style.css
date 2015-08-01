@@ -1,0 +1,43 @@
+#qzx_login_content {
+  margin: auto;
+  width: 700px;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  padding-top: 100px;
+}
+#login_submit_btn {
+  position: relative;
+  top: 30px;
+}
+.qzx_input_wrapper_div {
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+.qzx_input_label_div {
+  width: 28%;
+  height: 100%;
+  float: left;
+  line-height: 100px;
+  text-align: left;
+  font-size: 24px;
+}
+.qzx_input_input_div {
+  width: 65%;
+  height: 100%;
+  float: left;
+  line-height: 100px;
+}
+.qzx_input_input_div input {
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 3px;
+  color: #c2b2b2;
+}
+.qzx_input_input_div .on_input {
+  color: #803B3B;
+}

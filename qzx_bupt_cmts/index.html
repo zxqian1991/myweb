@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bupt_app">
+<head  ng-controller="headbarController">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imgs/icon.JPG">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" language="JavaScript" src="dep/jquery/jquery.js"></script>
+    <script type="text/javascript" language="JavaScript" src="dep/bootstrap/bootstrap.js"></script>
+    <script type="text/javascript" language="JavaScript" src="dep/angular/angular.js"></script>
+    <script type="text/javascript" language="JavaScript" src="js/controller.js"></script>
+    <title ng-bind="title"></title>
+</head>
+<body>
+<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" ng-controller="navbarController">
+    <div class="navbar-header">
+        <a class="navbar-brand zx-hand">Welcome</a>
+    </div>
+    <div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a class="zx-hand" ng-click="goToCmts()">CMTS管理</a></li>
+            <li><a class="zx-hand">CM管理</a></li>
+            <li><a class="zx-hand">CPE管理</a></li>
+            <li class="dropdown">
+                <a class="zx-hand dropdown-toggle" data-toggle="dropdown">远程登录<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="zx-hand">SSH远程登录</a></li>
+                    <li><a class="zx-hand">TELNET远程登录</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle zx-hand" data-toggle="dropdown">
+                    用户管理
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="zx-hand">contact me</a></li>
+                    <li><a class="zx-hand">manage</a></li>
+                    <li><a class="zx-hand">账户信息</a></li>
+                    <li class="divider"></li>
+                    <li><a class="zx-hand">注销</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container" id = "qzx_main_container">
+<div class="" ng-controller="cmtsContentHandler">
+    <ol class="breadcrumb">
+        <li><a class="zx-hand">Home</a></li>
+        <li class="active">CMTS管理</li>
+    </ol>
+    <h3>Cmts管理列表</h3>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th ng-repeat="list in lists">{{list}}</th>
+        </tr>
+
+        </thead>
+    </table>
+</div>
+</div>
+</body>
+</html>

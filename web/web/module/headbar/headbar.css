@@ -1,0 +1,40 @@
+.h-navbar {
+  font-family: lanting;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  padding-top: 4px;
+  color: #7cb2f5;
+  position: fixed;
+  top: 0px;
+}
+.h-navbar ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  float: right;
+  height: 32px;
+  margin-right: 60px;
+}
+.h-navbar ul li.h-active {
+  background-color: #7cb2f5;
+  color: white;
+}
+.h-navbar ul li.h-active:hover {
+  cursor: pointer;
+  background: #7cb2f5;
+}
+.h-navbar ul li {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 140px;
+  text-align: center;
+  line-height: 32px;
+}
+.h-navbar ul li:hover {
+  cursor: pointer;
+  background: #eaf8ff;
+}

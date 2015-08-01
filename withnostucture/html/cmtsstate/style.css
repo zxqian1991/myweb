@@ -1,0 +1,28 @@
+#cmts_state {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: 99%;
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #51494C;
+}
+.show_item {
+  width: 103px;
+  height: 50px;
+  float: left;
+  border: 1px solid #775757;
+  background: #bee2be;
+}
+.show_item_wrapper {
+  display: inline-block;
+}
+.head_line_item {
+  background: #B87528;
+  color: #D1E048;
+  font-family: songti;
+}
+.body_item_show {
+  height: 40px;
+  font-size: 10px;
+}

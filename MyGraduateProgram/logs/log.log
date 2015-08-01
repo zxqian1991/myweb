@@ -1,0 +1,12 @@
+[INFO ][2015-07-14 14:46:00,388] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.3.0 who's name is pro3 and it's value is 1 day, 5:18:58.78
+[INFO ][2015-07-14 14:46:00,393] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.5.0 who's name is pro2 and it's value is bodley
+[INFO ][2015-07-14 14:46:00,793] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.1.0 who's name is pro1 and it's value is Hardware: Intel64 Family 6 Model 23 Stepping 6 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 9600 Multiprocessor Free)
+[INFO ][2015-07-14 14:46:01,799] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.3.0 who's name is pro3 and it's value is 1 day, 5:19:00.31
+[INFO ][2015-07-14 14:46:01,805] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.5.0 who's name is pro2 and it's value is bodley
+[INFO ][2015-07-14 14:46:02,274] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.1.0 who's name is pro1 and it's value is Hardware: Intel64 Family 6 Model 23 Stepping 6 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 9600 Multiprocessor Free)
+[INFO ][2015-07-14 14:46:03,281] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.3.0 who's name is pro3 and it's value is 1 day, 5:19:01.73
+[INFO ][2015-07-14 14:46:03,286] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.5.0 who's name is pro2 and it's value is bodley
+[INFO ][2015-07-14 14:46:03,780] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.1.0 who's name is pro1 and it's value is Hardware: Intel64 Family 6 Model 23 Stepping 6 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 9600 Multiprocessor Free)
+[INFO ][2015-07-14 14:46:04,788] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.3.0 who's name is pro3 and it's value is 1 day, 5:19:03.20
+[INFO ][2015-07-14 14:46:04,792] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.5.0 who's name is pro2 and it's value is bodley
+[INFO ][2015-07-14 14:46:05,232] thread Thread-2 says:The Host 192.168.10.184 returns the value of 1.3.6.1.2.1.1.1.0 who's name is pro1 and it's value is Hardware: Intel64 Family 6 Model 23 Stepping 6 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 9600 Multiprocessor Free)

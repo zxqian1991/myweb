@@ -1,0 +1,7 @@
+.zx-hand:hover{
+    cursor: pointer;
+}
+#qzx_main_container{
+    position:relative;
+    top: 50px;
+}
